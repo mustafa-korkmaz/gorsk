@@ -3,11 +3,11 @@ package query_test
 import (
 	"testing"
 
-	"github.com/ribice/gorsk/pkg/utl/model"
+	"github.com/mustafa-korkmaz/movies/pkg/utl/model"
 
 	"github.com/labstack/echo"
 
-	"github.com/ribice/gorsk/pkg/utl/query"
+	"github.com/mustafa-korkmaz/movies/pkg/utl/query"
 	"github.com/stretchr/testify/assert"
 )
 

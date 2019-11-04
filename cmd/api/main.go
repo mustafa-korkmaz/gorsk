@@ -6,8 +6,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/ribice/gorsk/pkg/api"
-	"github.com/ribice/gorsk/pkg/utl/config"
+	"github.com/mustafa-korkmaz/movies/pkg/api"
+	"github.com/mustafa-korkmaz/movies/pkg/utl/config"
 )
 
 func main() {

@@ -3,10 +3,10 @@ package user_test
 import (
 	"testing"
 
-	"github.com/ribice/gorsk/pkg/api/user"
-	"github.com/ribice/gorsk/pkg/utl/mock"
-	"github.com/ribice/gorsk/pkg/utl/mock/mockdb"
-	gorsk "github.com/ribice/gorsk/pkg/utl/model"
+	"github.com/mustafa-korkmaz/movies/pkg/api/user"
+	"github.com/mustafa-korkmaz/movies/pkg/utl/mock"
+	"github.com/mustafa-korkmaz/movies/pkg/utl/mock/mockdb"
+	gorsk "github.com/mustafa-korkmaz/movies/pkg/utl/model"
 
 	"github.com/go-pg/pg/orm"
 	"github.com/labstack/echo"

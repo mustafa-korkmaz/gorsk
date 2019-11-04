@@ -3,10 +3,10 @@ package rbac_test
 import (
 	"testing"
 
-	"github.com/ribice/gorsk/pkg/utl/model"
+	"github.com/mustafa-korkmaz/movies/pkg/utl/model"
 
-	"github.com/ribice/gorsk/pkg/utl/mock"
-	"github.com/ribice/gorsk/pkg/utl/rbac"
+	"github.com/mustafa-korkmaz/movies/pkg/utl/mock"
+	"github.com/mustafa-korkmaz/movies/pkg/utl/rbac"
 
 	"github.com/labstack/echo"
 

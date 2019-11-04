@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-pg/pg/orm"
 	"github.com/labstack/echo"
-	gorsk "github.com/ribice/gorsk/pkg/utl/model"
+	gorsk "github.com/mustafa-korkmaz/movies/pkg/utl/model"
 )
 
 // NewUser returns a new user database instance

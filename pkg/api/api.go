@@ -34,24 +34,24 @@ package api
 import (
 	"crypto/sha1"
 
-	"github.com/ribice/gorsk/pkg/utl/zlog"
+	"github.com/mustafa-korkmaz/movies/pkg/utl/zlog"
 
-	"github.com/ribice/gorsk/pkg/api/auth"
-	al "github.com/ribice/gorsk/pkg/api/auth/logging"
-	at "github.com/ribice/gorsk/pkg/api/auth/transport"
-	"github.com/ribice/gorsk/pkg/api/password"
-	pl "github.com/ribice/gorsk/pkg/api/password/logging"
-	pt "github.com/ribice/gorsk/pkg/api/password/transport"
-	"github.com/ribice/gorsk/pkg/api/user"
-	ul "github.com/ribice/gorsk/pkg/api/user/logging"
-	ut "github.com/ribice/gorsk/pkg/api/user/transport"
+	"github.com/mustafa-korkmaz/movies/pkg/api/auth"
+	al "github.com/mustafa-korkmaz/movies/pkg/api/auth/logging"
+	at "github.com/mustafa-korkmaz/movies/pkg/api/auth/transport"
+	"github.com/mustafa-korkmaz/movies/pkg/api/password"
+	pl "github.com/mustafa-korkmaz/movies/pkg/api/password/logging"
+	pt "github.com/mustafa-korkmaz/movies/pkg/api/password/transport"
+	"github.com/mustafa-korkmaz/movies/pkg/api/user"
+	ul "github.com/mustafa-korkmaz/movies/pkg/api/user/logging"
+	ut "github.com/mustafa-korkmaz/movies/pkg/api/user/transport"
 
-	"github.com/ribice/gorsk/pkg/utl/config"
-	"github.com/ribice/gorsk/pkg/utl/middleware/jwt"
-	"github.com/ribice/gorsk/pkg/utl/postgres"
-	"github.com/ribice/gorsk/pkg/utl/rbac"
-	"github.com/ribice/gorsk/pkg/utl/secure"
-	"github.com/ribice/gorsk/pkg/utl/server"
+	"github.com/mustafa-korkmaz/movies/pkg/utl/config"
+	"github.com/mustafa-korkmaz/movies/pkg/utl/middleware/jwt"
+	"github.com/mustafa-korkmaz/movies/pkg/utl/postgres"
+	"github.com/mustafa-korkmaz/movies/pkg/utl/rbac"
+	"github.com/mustafa-korkmaz/movies/pkg/utl/secure"
+	"github.com/mustafa-korkmaz/movies/pkg/utl/server"
 )
 
 // Start starts the API service

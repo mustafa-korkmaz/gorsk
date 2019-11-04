@@ -3,11 +3,11 @@ package pgsql_test
 import (
 	"testing"
 
-	"github.com/ribice/gorsk/pkg/utl/model"
+	"github.com/mustafa-korkmaz/movies/pkg/utl/model"
 
-	"github.com/ribice/gorsk/pkg/utl/mock"
+	"github.com/mustafa-korkmaz/movies/pkg/utl/mock"
 
-	"github.com/ribice/gorsk/pkg/api/auth/platform/pgsql"
+	"github.com/mustafa-korkmaz/movies/pkg/api/auth/platform/pgsql"
 
 	"github.com/stretchr/testify/assert"
 )
