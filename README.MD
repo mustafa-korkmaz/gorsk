@@ -81,7 +81,7 @@ Using Gorsk requires having Go 1.7 or above. Once you downloaded Gorsk (either u
 go run cmd/api/main.go
 ```
 
-The application runs as an HTTP server at port 8080. It provides the following RESTful endpoints:
+The application runs as an HTTP server at port 3000. It provides the following RESTful endpoints:
 
 * `POST /login`: accepts username/passwords and returns jwt token and refresh token
 * `GET /refresh/:token`: refreshes sessions and returns jwt token
@@ -93,7 +93,7 @@ The application runs as an HTTP server at port 8080. It provides the following R
 * `PATCH /v1/password/:id`: changes password for a user
 * `DELETE /v1/users/:id`: deletes a user
 
-You can log in as admin to the application by sending a post request to localhost:8080/login with username `admin` and password `admin` in JSON body.
+You can log in as admin to the application by sending a post request to localhost:3000/login with username `admin` and password `admin` in JSON body.
 
 ### Implementing CRUD of another table
 

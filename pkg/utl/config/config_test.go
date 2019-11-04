@@ -34,7 +34,7 @@ func TestLoad(t *testing.T) {
 					Timeout:    20,
 				},
 				Server: &config.Server{
-					Port:         ":8080",
+					Port:         ":3000",
 					Debug:        true,
 					ReadTimeout:  15,
 					WriteTimeout: 20,
