@@ -5,7 +5,6 @@ import (
 	"log"
 	"strings"
 
-	"github.com/ribice/gorsk/pkg/utl/model"
 	"github.com/ribice/gorsk/pkg/utl/secure"
 
 	"github.com/go-pg/pg"
@@ -20,7 +19,7 @@ func main() {
 	INSERT INTO public.roles VALUES (120, 120, 'COMPANY_ADMIN');
 	INSERT INTO public.roles VALUES (130, 130, 'LOCATION_ADMIN');
 	INSERT INTO public.roles VALUES (200, 200, 'USER');`
-	var psn = `postgres://biadpozi:3_Czbl7jSjkUEWk--VP8QXMke-mFnczq@horton.elephantsql.com:5432/biadpozi`
+	var psn = `postgres://dwztilqv:bSZUkp9kaxxG42acIdbwFX9VakRo3AtO@rogue.db.elephantsql.com:5432/dwztilqv`
 	queries := strings.Split(dbInsert, ";")
 
 	u, err := pg.ParseURL(psn)

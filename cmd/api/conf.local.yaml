@@ -1,10 +1,10 @@
 database:
   log_queries: true
   timeout_seconds: 5
-  psn: postgres://biadpozi:3_Czbl7jSjkUEWk--VP8QXMke-mFnczq@horton.elephantsql.com:5432/biadpozi
+  psn: postgres://dwztilqv:bSZUkp9kaxxG42acIdbwFX9VakRo3AtO@rogue.db.elephantsql.com:5432/dwztilqv
 
 server:
-  port: :8080
+  port: :3000
   debug: true
   read_timeout_seconds: 10
   write_timeout_seconds: 5
